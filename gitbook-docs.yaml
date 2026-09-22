@@ -1,0 +1,13 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+site:
+  title: Harness Design
+  structure:
+    - type: space
+      key: space-harness-design
+      title: Claude Code Harness 设计分析
+      path: harness-design
+      default: true
+      content:
+        directory: ./
+        language: zh
