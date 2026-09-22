@@ -1,5 +1,9 @@
 # Claude Code Harness 设计分析
 
+[![GitHub](https://img.shields.io/badge/GitHub-3dot141%2Fharness--design-181717?logo=github&style=flat-square)](https://github.com/3dot141/harness-design)
+[![Stars](https://img.shields.io/github/stars/3dot141/harness-design?logo=github&style=flat-square)](https://github.com/3dot141/harness-design)
+[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
+
 基于 vendored Claude Code 源码的 harness 设计逐层分析 —— query loop、工具与权限、上下文治理、skills、错误与恢复。
 
 > 研究方法: 源码对照(注释级因果还原), 所有机制均标注源文件与行号。
