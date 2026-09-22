@@ -2,11 +2,21 @@ $schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
   title: Harness Design
   structure:
-    - type: space
-      key: space-harness-design
+    - type: section
+      key: section-docs
       title: Claude Code Harness 设计分析
-      path: harness-design
+      path: docs
       default: true
-      content:
-        directory: ./
-        language: zh
+      children:
+        - type: space
+          key: space-harness-design
+          title: Claude Code Harness 设计分析
+          path: harness-design
+          default: true
+          content:
+            directory: ./
+            language: zh
+    - type: external-link
+      key: link-github
+      title: GitHub
+      url: https://github.com/3dot141/harness-design
