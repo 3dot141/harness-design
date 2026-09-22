@@ -4,8 +4,10 @@ site:
   structure:
     - type: section
       key: section-docs
-      title: Claude Code Harness 设计分析
+      title: Claude Code Harness
       path: docs
+      description: ""
+      icon: chart-sine
       default: true
       children:
         - type: space
